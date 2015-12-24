@@ -1,0 +1,96 @@
+/////////////////////////////////////////
+// CSS for LotusGardenChinese.info //////
+/////////////////////////////////////////
+
+$header: 48px;
+$subheader: 28px;
+$paragraphheader: 22px;
+$body: 16px;
+$meta: 13px;
+
+$serif: georgia, sans-serif;
+$sans-serif: helvetica, arial, sans-serif;
+
+$mint: #d2ebe8;
+$pink: #c670a3;
+$green: #53b65e;
+$textGrey: #222;
+
+body {
+	background: $mint;
+	margin: -21px 0;
+	padding: 0;
+	color: $textGrey;
+	font-size: 16px;
+	font-family: $serif;
+	text-align: center;
+}
+
+h1 {
+	font-size: $header;
+	color: $pink;
+	font-family: $sans-serif;
+	font-weight: 300;
+}
+
+h2 {
+	margin: 40px auto 5px;
+	font-size: $subheader;
+	color: $green;
+	font-family: $sans-serif;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+	color: $pink;
+	border-bottom: 1px solid $green;
+}
+	a:hover {
+		color: $textGrey;
+	}
+	a:active {
+		position: relative;
+		top: 1px; 
+		border: 0; 
+	}
+
+#content {
+	width: 700px;
+	margin: 20px auto;
+	padding: 10px 0;
+}
+			
+::selection {
+	background: $pink;
+	color: $mint;
+	text-shadow: 0 0 0;
+}
+::-moz-selection {
+	background: $pink;
+	color: $mint;
+	text-shadow: 0 0 0;
+}
+
+.menu {
+	background: $green;
+	padding: 9px 20px 10px;
+	border-radius: 4px;
+	box-shadow: 0 2px 0 #2c8b36;
+	color: #fff;
+	border-bottom: 0;
+	font-family: $sans-serif;
+	font-weight: normal;
+	text-transform: lowercase;
+
+	&:hover {
+		background: #3dce4d;
+		color: #fff;
+	}
+
+	&:active {
+		top: 2px;
+		box-shadow: 0 0 0;
+	}
+
+}

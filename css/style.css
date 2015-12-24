@@ -1,0 +1,66 @@
+body {
+  background: #d2ebe8;
+  margin: -21px 0;
+  padding: 0;
+  color: #222222;
+  font-size: 16px;
+  font-family: georgia, sans-serif;
+  text-align: center; }
+
+h1 {
+  font-size: 48px;
+  color: #c670a3;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 300; }
+
+h2 {
+  margin: 40px auto 5px;
+  font-size: 28px;
+  color: #53b65e;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 300; }
+
+a {
+  text-decoration: none;
+  color: #c670a3;
+  border-bottom: 1px solid #53b65e; }
+
+a:hover {
+  color: #222222; }
+
+a:active {
+  position: relative;
+  top: 1px;
+  border: 0; }
+
+#content {
+  width: 700px;
+  margin: 20px auto;
+  padding: 10px 0; }
+
+::selection {
+  background: #c670a3;
+  color: #d2ebe8;
+  text-shadow: 0 0 0; }
+
+::-moz-selection {
+  background: #c670a3;
+  color: #d2ebe8;
+  text-shadow: 0 0 0; }
+
+.menu {
+  background: #53b65e;
+  padding: 9px 20px 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 0 #2c8b36;
+  color: #fff;
+  border-bottom: 0;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: normal;
+  text-transform: lowercase; }
+  .menu:hover {
+    background: #3dce4d;
+    color: #fff; }
+  .menu:active {
+    top: 2px;
+    box-shadow: 0 0 0; }
