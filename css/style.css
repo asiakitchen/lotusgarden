@@ -4,26 +4,25 @@ body {
   padding: 0;
   color: #222222;
   font-size: 16px;
-  font-family: georgia, sans-serif;
+  font-family: "PT Sans", helvetica, arial, sans-serif;
   text-align: center; }
 
 h1 {
   font-size: 48px;
   color: #c670a3;
-  font-family: helvetica, arial, sans-serif;
+  font-family: "PT Sans", helvetica, arial, sans-serif;
   font-weight: 300; }
 
 h2 {
   margin: 40px auto 5px;
   font-size: 28px;
   color: #53b65e;
-  font-family: helvetica, arial, sans-serif;
+  font-family: "PT Sans", helvetica, arial, sans-serif;
   font-weight: 300; }
 
 a {
   text-decoration: none;
-  color: #c670a3;
-  border-bottom: 1px solid #53b65e; }
+  color: #c670a3; }
 
 a:hover {
   color: #222222; }
@@ -49,13 +48,14 @@ a:active {
   text-shadow: 0 0 0; }
 
 .menu {
+  line-height: 50px;
   background: #53b65e;
   padding: 9px 20px 10px;
   border-radius: 4px;
   box-shadow: 0 2px 0 #2c8b36;
   color: #fff;
   border-bottom: 0;
-  font-family: helvetica, arial, sans-serif;
+  font-family: "PT Sans", helvetica, arial, sans-serif;
   font-weight: normal;
   text-transform: lowercase; }
   .menu:hover {
@@ -64,3 +64,18 @@ a:active {
   .menu:active {
     top: 2px;
     box-shadow: 0 0 0; }
+
+ul {
+  text-align: center;
+  margin: 0 auto; }
+
+li {
+  float: left;
+  display: block;
+  width: 250px;
+  height: 100px;
+  border-top: 2px #53b65e solid;
+  background: #fff;
+  color: #222222;
+  margin: 10px 5px;
+  padding: 30px 0; }
