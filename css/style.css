@@ -1,5 +1,5 @@
 body {
-  background: #d2ebe8;
+  background: #F2E8D0;
   margin: -21px 0;
   padding: 0;
   color: #222222;
@@ -16,7 +16,7 @@ h1 {
 h2 {
   margin: 40px auto 5px;
   font-size: 28px;
-  color: #53b65e;
+  color: #4E9084;
   font-family: "PT Sans", helvetica, arial, sans-serif;
   font-weight: 300; }
 
@@ -33,7 +33,7 @@ a:active {
   border: 0; }
 
 #content {
-  width: 700px;
+  width: 90%;
   margin: 20px auto;
   padding: 10px 0; }
 
@@ -72,7 +72,7 @@ ul {
 li {
   float: left;
   display: block;
-  width: 250px;
+  width: 300px;
   height: 100px;
   border-top: 2px #53b65e solid;
   background: #fff;
